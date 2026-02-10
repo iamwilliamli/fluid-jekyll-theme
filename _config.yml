@@ -1,0 +1,56 @@
+# Site settings
+title: Your Blog Title
+description: Your blog description
+author: Your Name
+baseurl: ""
+url: "https://yourusername.github.io"
+lang: zh-CN
+
+# SEO settings (optional)
+# twitter:
+#   card: summary_large_image
+# social:
+#   name: Your Name
+# logo: /assets/images/logo.png
+# image: /assets/images/og-default.jpg
+# google_site_verification: your-verification-code
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - worker
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
