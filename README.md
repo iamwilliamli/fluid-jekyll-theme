@@ -2,6 +2,8 @@
 
 一个简洁优雅的 Jekyll 博客主题，支持中文。
 
+**[在线演示 Demo](https://iamwilliamli.github.io/fluid-jekyll-theme)**
+
 ## 特性
 
 - 响应式设计，移动端友好
