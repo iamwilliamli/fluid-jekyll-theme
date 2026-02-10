@@ -1,9 +1,9 @@
 # Site settings
-title: Your Blog Title
-description: Your blog description
-author: Your Name
-baseurl: ""
-url: "https://yourusername.github.io"
+title: Fluid Theme
+description: A minimal and elegant Jekyll blog theme
+author: Fluid Theme
+baseurl: "/fluid-jekyll-theme"
+url: "https://iamwilliamli.github.io"
 lang: zh-CN
 
 # SEO settings (optional)
